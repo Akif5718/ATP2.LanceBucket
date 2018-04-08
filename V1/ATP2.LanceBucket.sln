@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanceBucket.MVC", "LanceBucket.MVC\LanceBucket.MVC.csproj", "{F27A4F6E-0DF2-4863-AD67-40E5D0AD2BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP2.LanceBucket.Entities", "ATP2.LanceBucket.Entities\ATP2.LanceBucket.Entities.csproj", "{949C32EA-927E-4B6D-A8A4-BECAB34AF4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP2.LanceBucket.Data", "ATP2.LanceBucket.Data\ATP2.LanceBucket.Data.csproj", "{59A78665-69B8-4724-98FE-D8BE6548EB39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1A295F0C-0DFD-4A4A-A541-759FAE5A4D8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{60B7236A-FC6F-489E-9693-AC2BAEFAF1FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameWork", "FrameWork", "{D5F4CB68-5423-45A7-8F04-293D93FE846E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{8A2FE63B-AC75-4EE8-A461-C7FFE6CBB05E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reporting", "Reporting", "{6F15CF0D-27C5-4ED0-BA2B-51BEE26C54DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP2.LanceBucket.Model", "ATP2.LanceBucket.Model\ATP2.LanceBucket.Model.csproj", "{ADF23299-8D62-4014-8F45-CF7252A9DE31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F27A4F6E-0DF2-4863-AD67-40E5D0AD2BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27A4F6E-0DF2-4863-AD67-40E5D0AD2BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27A4F6E-0DF2-4863-AD67-40E5D0AD2BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27A4F6E-0DF2-4863-AD67-40E5D0AD2BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949C32EA-927E-4B6D-A8A4-BECAB34AF4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949C32EA-927E-4B6D-A8A4-BECAB34AF4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949C32EA-927E-4B6D-A8A4-BECAB34AF4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949C32EA-927E-4B6D-A8A4-BECAB34AF4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A78665-69B8-4724-98FE-D8BE6548EB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A78665-69B8-4724-98FE-D8BE6548EB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A78665-69B8-4724-98FE-D8BE6548EB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A78665-69B8-4724-98FE-D8BE6548EB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF23299-8D62-4014-8F45-CF7252A9DE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF23299-8D62-4014-8F45-CF7252A9DE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF23299-8D62-4014-8F45-CF7252A9DE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF23299-8D62-4014-8F45-CF7252A9DE31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F27A4F6E-0DF2-4863-AD67-40E5D0AD2BB5} = {60B7236A-FC6F-489E-9693-AC2BAEFAF1FE}
+		{949C32EA-927E-4B6D-A8A4-BECAB34AF4F8} = {1A295F0C-0DFD-4A4A-A541-759FAE5A4D8C}
+		{59A78665-69B8-4724-98FE-D8BE6548EB39} = {1A295F0C-0DFD-4A4A-A541-759FAE5A4D8C}
+		{ADF23299-8D62-4014-8F45-CF7252A9DE31} = {60B7236A-FC6F-489E-9693-AC2BAEFAF1FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E1EE48B-A71A-4DC3-A1BC-FB0CE0ECD6B3}
+	EndGlobalSection
+EndGlobal
